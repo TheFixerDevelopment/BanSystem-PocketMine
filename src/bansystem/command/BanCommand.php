@@ -16,7 +16,7 @@ class BanCommand extends Command {
         $this->setPermission("bansystem.command.ban");
     }
     
-    public function execute(CommandSender $sender, $label, array $args) {
+    public function execute(CommandSender $sender, string $label, array $args) : bool {
         if ($this->testPermissionSilent($sender)) {
             if (count($args) <= 0) {
                 $sender->sendMessage(Translation::translateParams("usage", array($this)));
