@@ -3,5 +3,5 @@ name: VMPE-Action
 main: bansystem\BanSystem
 version: 2.0.0
 author: Zeao
-api: [3.0.0-ALPHA8]
+api: [3.0.0-4.0.0]
 description: A ban system for Pocketmine only, running ALPHA7.
